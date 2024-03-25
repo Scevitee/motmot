@@ -67,6 +67,7 @@
 
         // /course/group/COP/4600
         // This gets the ID of the COP 4600 group
+   
         const res = await fetch(`${BASE_API_PATH}/course/group/${parts[0]}/${parts[1]}`)
         const data = await res.json()
 
